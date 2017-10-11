@@ -92,5 +92,5 @@ pinyin for java
 ```
 
 ## 赏 ##
-[微信](https://github.com/KyleTang/kyletang.github.io/blob/master/images/shoukuan_weixin.jpg?raw=true)
-[支付宝](https://github.com/KyleTang/kyletang.github.io/blob/master/images/shoukuan_zhifubao.jpg?raw=true)
+[微信](https://blog.kyletang.work/imgs/shoukuan_weixin.jpg)
+[支付宝](https://blog.kyletang.work/imgs/shoukuan_zhifubao.jpg)
