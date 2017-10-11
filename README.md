@@ -19,7 +19,7 @@ pinyin for java
 
 ## 集成代码 ##
 只有一个java文件 JPinYin.java
-字典目录为data目录，自带了自带
+字典目录为data目录
 
 ## 代码使用 ##
 ```java
