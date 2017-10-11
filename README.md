@@ -3,7 +3,10 @@ pinyin for java
 
 词库基于 https://github.com/overtrue/pinyin 并进行了修正和补充。
 
-## 使用 ##
+## 集成代码 ##
+只有一个java文件 JPinYin.java
+
+## 代码使用 ##
 ```java
         //创建实例，需指定自带词典数据所在目录
         //自带词典文件加载顺序，相同词的发音，后面加载的词典会覆盖前面的。
