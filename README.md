@@ -6,7 +6,7 @@ pinyin for java
 ## 使用 ##
 ```java
         //创建实例，需指定自带词典数据所在目录
-        //自带词典文件加载顺序，同名词的发音，后面加载的词典会覆盖前面的。
+        //自带词典文件加载顺序，相同词的发音，后面加载的词典会覆盖前面的。
         // surnames 多音字姓名
         // words_* 内置词典，顺序0到n
         // users_* 用户自定义词典，顺序0到n
@@ -38,7 +38,6 @@ pinyin for java
         //转换姓名
         System.out.println(jPinYin.convertName("单田芳",JPinYin.TONE_UNICODE));
         //输出 ShànTiánFāng
-
 
         //查字的拼音
         for(String pinyin: jPinYin.convertChar('长',JPinYin.TONE_UNICODE)) {
