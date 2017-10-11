@@ -235,6 +235,18 @@ public class JPinYin {
     }
 
     /**
+     *
+     * @param text
+     * @param pinyinSeparator
+     * @param onlyFirstChar
+     * @param firstCharUpperCase
+     * @return
+     */
+    public String convertLink(String text, String pinyinSeparator, boolean onlyFirstChar, boolean firstCharUpperCase){
+        return convertTextInner(text,TONE_NONE,pinyinSeparator,pinyinSeparator,false,onlyFirstChar,firstCharUpperCase, true);
+    }
+
+    /**
      * 转换中文句子为拼音字符串，指定音调类型
      * @param text
      * @param toneType
